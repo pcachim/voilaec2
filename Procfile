@@ -1,1 +1,1 @@
-web: jupyter lab --port=$PORT math-calculator.ipynb
+web: jupyter notebook --ip 0.0.0.0  --port=$PORT math-calculator.ipynb
