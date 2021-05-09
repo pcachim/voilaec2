@@ -1,1 +1,1 @@
-web: jupyter notebook --ip 0.0.0.0  --port=$PORT math-calculator.ipynb
+web: voila --port=$PORT --no-browser --show_tracebacks=True math-calculator.ipynb
